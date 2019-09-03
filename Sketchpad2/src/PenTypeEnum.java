@@ -24,7 +24,7 @@ public enum PenTypeEnum {
 	Ellipse,		//椭圆
 	String;			//文字
 	public static String[] getPenTypeList() {
-		PenTypeEnum enumtest =PenTypeEnum.Pointer;
+		//PenTypeEnum enumtest =PenTypeEnum.Pointer;
 		int length=PenTypeEnum.values().length;
 		String [] list= new String[length];
 		for(int i=0;i<length;++i) {
