@@ -1,0 +1,7 @@
+compile:
+path=RootPath
+cmd=javac ./src/Sketchpad.java -source ./src -d ./bin
+
+run:
+path=RootPath
+cmd=java Sketchpad -classpath ./bin
