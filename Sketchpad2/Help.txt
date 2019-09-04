@@ -1,7 +1,9 @@
 compile:
 path=RootPath
-cmd=javac ./src/Sketchpad.java -source ./src -d ./bin
+//cmd=javac ./src/Sketchpad.java -source ./src -d ./bin
+cmd=javac -sourcepath ./src -d ./bin ./src/Sketchpad.java
 
 run:
 path=RootPath
-cmd=java Sketchpad -classpath ./bin
+//cmd=java Sketchpad -classpath ./bin //Error for windos 10 en-us.//Error: Could not find or load main class Sketchpad
+cmd=java -classpath ./bin Sketchpad
